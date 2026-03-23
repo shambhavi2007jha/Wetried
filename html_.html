@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Language to Text and Speech Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1 class="title">
+  <span class="logo">🤟</span>
+  Sign Language to Text and Speech Converter
+</h1>
+   <p class="subtitle">Real-Time ASL recogintion</p>
+    </header>
+
+    <main class="dashboard">
+      <div class="panel camera-panel">
+        <div class="status">
+          <span class="status-dot offline"></span>
+          Offline
+        </div>
+        <div class="camera-view">
+          <div class="camera-placeholder">
+            <i class="fa-solid fa-video-slash"></i>
+            <p>Camera is off</p>
+          </div>
+        </div>
+        <div class="controls">
+          <button class="btn btn-primary start-btn">
+            <i class="fa-solid fa-play"></i>
+            Start Detection
+          </button>
+        </div>
+      </div>
+
+      <div class="panel result-panel">
+
+  <div class="result-box">
+    <h3>DETECTED LETTER</h3>
+    <div class="big-letter">?</div>
+  </div>
+
+  <div class="result-box">
+    <h3>DETECTED TEXT</h3>
+    <div class="detected-text">* Waiting for signs...</div>
+  </div>
+
+</div>
+
+    </main>
+
+    <section class="how-to-use">
+      <h2>How to Use</h2>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-icon"><i class="fa-solid fa-video"></i></div>
+          <h4>1. Start Camera</h4>
+          <p>Click Start Detection and allow webcam access</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-icon"><i class="fa-solid fa-hand"></i></div>
+          <h4>2. Show Signs</h4>
+          <p>Hold ASL hand signs steady in front of the camera</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-icon"><i class="fa-solid fa-font"></i></div>
+          <h4>3. Read Text</h4>
+          <p>Letters auto-append after holding ~1 second</p>
+        </div>
+      </div>
+    </section>
+    <section class="quick-actions">
+        <div class="quick-access-header">
+  <h1>⚡ Quick Access</h1>
+  <p>Tap these buttons for instant communication — no sign needed</p>
+</div>
+
+  <div class="action-grid">
+
+    <div class="action-btn"><i class="fa-solid fa-bowl-food"></i><span>Eat</span></div>
+    <div class="action-btn"><i class="fa-solid fa-glass-water"></i><span>Drink</span></div>
+    <div class="action-btn"><i class="fa-solid fa-comment-dots"></i><span>Help</span></div>
+    <div class="action-btn"><i class="fa-solid fa-head-side-cough"></i><span>Pain</span></div>
+
+    <div class="action-btn"><i class="fa-solid fa-thumbs-up"></i><span>Yes</span></div>
+    <div class="action-btn"><i class="fa-solid fa-thumbs-down"></i><span>No</span></div>
+    <div class="action-btn"><i class="fa-solid fa-toilet"></i><span>Bathroom</span></div>
+    <div class="action-btn"><i class="fa-solid fa-face-smile"></i><span>Happy</span></div>
+
+    <div class="action-btn"><i class="fa-solid fa-face-sad-tear"></i><span>Sad</span></div>
+    <div class="action-btn"><i class="fa-solid fa-house"></i><span>Home</span></div>
+    <div class="action-btn"><i class="fa-solid fa-stop"></i><span>Stop</span></div>
+    <div class="action-btn"><i class="fa-solid fa-ellipsis"></i><span>More</span></div>
+
+  </div>
+
+</section>
+
+    <footer>
+      <p>Built for Hackathon 2026 | Team WeTried!!</p>
+    </footer>
+
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
